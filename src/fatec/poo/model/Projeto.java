@@ -15,16 +15,12 @@ public class Projeto {
     private int id;
     private String aluno;
     private String nomeBanner;
-    private Orientador orientador;
+    private String orientador;
     private Float mediaBanner;
     private Float mediaTg;
     private Float arredondamento;
 
     public Projeto(int id, int aInt) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public Projeto(String matricula, String string) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
@@ -52,6 +48,15 @@ public class Projeto {
         this.nomeBanner = nomeBanner;
     }
 
+    public String getOrientador() {
+        return orientador;
+    }
+
+    public void setOrientador(String orientador) {
+        this.orientador = orientador;
+    }
+    
+    
     public float getMediaBanner() {
         return mediaBanner;
     }
@@ -76,40 +81,4 @@ public class Projeto {
         this.arredondamento = arredondamento;
     }
 
-    public void setAvaliador1(String string) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void setAvaliador2(String string) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void setDataBanca(Date date) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void setNota1(float aFloat) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void setNota2(float aFloat) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void setNotaTg(float aFloat) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void setNotaBanner(float aFloat) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void setTema(String string) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void setOrientador(String string) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
 }

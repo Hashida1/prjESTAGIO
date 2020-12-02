@@ -13,9 +13,16 @@ public class Orientador {
     private Integer idOrientador;
     private String orientador;
 
-    public Orientador(int id, int aInt) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Orientador(int id, String o) {
+        idOrientador = id;
+        orientador = o;
     }
+
+    /**
+     *
+     * @param id
+     * @param getInt
+     */
     
     public Integer getIdOrientador() {
         return idOrientador;
